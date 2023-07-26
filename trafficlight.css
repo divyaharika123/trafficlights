@@ -1,0 +1,59 @@
+*
+{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(100, 100, 154);
+
+}
+
+.bodyy{
+    background-color: black;
+    border-radius: 30px;
+}
+
+.redd, .yell, .gre{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.red{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    /* background-color: red; */
+    border: 2px solid white;
+    margin: 1rem;
+}
+.yellow{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    /* background-color: rgb(242, 255, 0); */
+    border: 2px solid white;
+    margin: 1rem;
+}
+
+.green{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    /* background-color: rgb(0, 255, 13); */
+    border: 2px solid white;
+    margin: 1rem;
+}
